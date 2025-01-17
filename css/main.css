@@ -1,7 +1,11 @@
 body{
-    background-color: #646cbb;
+    background-color: #9db4aa;
 }
 
 .footer{
+    color: white;
+}
+
+.title{
     color: white;
 }
