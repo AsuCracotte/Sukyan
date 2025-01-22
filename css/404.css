@@ -1,7 +1,9 @@
 body{
-    background-color: #646cbb;
+    background-color: #e4bcb4;
 }
 
-.footer{
-    color: white;
+.footer {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 13px;
 }

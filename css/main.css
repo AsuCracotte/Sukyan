@@ -1,15 +1,9 @@
-body{
+body {
     background-color: #e4bcb4;
 }
 
-.footer{
-    color: black;
-}
-
-.title{
-    color: black;
-}
-
-.download{
-
+.footer {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 13px;
 }
