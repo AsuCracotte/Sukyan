@@ -56,4 +56,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Contact
 
-For any questions or suggestions, please contact us at [support@sukyan.com](mailto:support@sukyan.com).
+For any questions or suggestions, please contact us at [sukyan.contact@gmail.com](mailto:sukyan.contact@gmail.com).
