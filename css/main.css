@@ -39,11 +39,6 @@ body {
 
 .btn--base {
     color: white;
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
 }
 
 .btn--dl {
@@ -58,8 +53,7 @@ body {
 }
 
 .main {
-    font-family: "Fredoka", sans-serif;
-    font-weight: 700;
+    font-family: "Fredoka", bold;
     font-size: 3rem;
     flex-direction: row;
     text-align: left;
@@ -74,9 +68,9 @@ body {
 }
 
 .main--meilleur {
-    background: linear-gradient(90deg, #D901AB 0%, #730966 100%);
+    color: rgb(217,1,171);
+    background: linear-gradient(90deg, rgba(217,1,171,1) 0%, rgba(115,9,102,1) 100%);
     -webkit-background-clip: text;
-    background-clip: text;
     color: transparent;
 }
 
