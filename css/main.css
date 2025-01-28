@@ -1,47 +1,47 @@
 .inter-<uniquifier> {
-  font-family: "Inter", regular;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-body {
-    background-color: #000000;
+    font-family: "Inter", regular;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+  body {
+      background-color: #000000;
+      color: white;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  }
+  
+  main {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 100%;
+      gap: 2rem;
+  }
+  
+  nav {
     color: white;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 100%;
-    gap: 2rem;
-}
-
-nav {
-    color: white;
-    padding: 1em;
+    padding: 1rem;
     display: flex;
     font-family: 'Inter', regular;
     justify-content: center;
 }
 
 .btn {
-    padding: 15px 32px;
+    padding: 1rem 2rem;
     border: none;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 0.25rem;
     cursor: pointer;
 }
 
-.btn btn--base {
+.btn--base {
     color: white;
 }
 
@@ -55,5 +55,5 @@ nav {
     font-size: 13px;
     margin: 1rem 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
