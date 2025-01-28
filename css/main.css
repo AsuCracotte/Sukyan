@@ -30,10 +30,9 @@ nav {
     justify-content: center;
 }
 
-nav .btn {
-    border: none;
-    color: white;
+.btn {
     padding: 15px 32px;
+    border: none;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -42,8 +41,13 @@ nav .btn {
     cursor: pointer;
 }
 
-nav .btn--dl {
+.btn btn--base {
+    color: white;
+}
+
+.btn--dl {
     background-color: #D9D9D9;
+    color: #000000;
 }
 
 .footer {
