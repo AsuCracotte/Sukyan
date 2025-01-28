@@ -56,7 +56,9 @@ body {
 
 .main--meilleur {
     color: rgb(217,1,171);
-    color: linear-gradient(90deg, rgba(217,1,171,1) 0%, rgba(115,9,102,1) 100%);
+    background: linear-gradient(90deg, rgba(217,1,171,1) 0%, rgba(115,9,102,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .footer {
