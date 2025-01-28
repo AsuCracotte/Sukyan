@@ -1,5 +1,13 @@
+.inter-<uniquifier> {
+  font-family: "Inter", regular;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 body {
-    background-color: #ebb1de;
+    background-color: #000000;
+    color: white;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,10 +22,28 @@ main {
     gap: 2rem;
 }
 
-.nav {
+nav {
     color: white;
     padding: 1em;
     display: flex;
+    font-family: 'Inter', regular;
+    justify-content: center;
+}
+
+nav .btn {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+nav .btn--dl {
+    background-color: #D9D9D9;
 }
 
 .footer {
