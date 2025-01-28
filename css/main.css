@@ -10,22 +10,20 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 2rem;
     height: 100%;
+    gap: 2rem;
 }
 
 .nav {
-    background-color: #ebb1de;
     color: white;
     padding: 1em;
-    flex-direction: row;
-    justify-content: flex-start;
+    display: flex;
 }
 
 .footer {
-    text-align: center;
     font-family: 'Lato', sans-serif;
-    margin: 1rem 0;
     font-size: 13px;
+    margin: 1rem 0;
+    display: flex;
     justify-content: flex-end;
 }
