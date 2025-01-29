@@ -60,7 +60,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    margin-left: 2%;
 }
 
 .main--base {
@@ -72,6 +71,7 @@ body {
     background: linear-gradient(90deg, rgba(217,1,171,1) 0%, rgba(115,9,102,1) 100%);
     -webkit-background-clip: text;
     color: transparent;
+    justify-content: left;
 }
 
 .header--img {
