@@ -1,67 +1,70 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8"/>
     <title>Sukyan</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" />
-    <link rel="icon" href="img/Logo Sukyan.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"/>
+    <link rel="icon" href="img/Logo Sukyan.ico"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"/>
     <script src="js/app.js"></script>
-    <meta property="og:image" content="img/Logo Sukyan.ico"/>
+    <meta property="og:image" content="img/Logo Sukyan.ico" />
     <meta property="og:image:alt" content="Sukyan is a software that allows you to update all your components. It always informs you when there is a new driver online. Additionally, it includes an overclocking section, enabling you to overclock your components such as your GPU or RAM."/>
-</head>
-<body>
-    <header>
-        <nav>
-            <a class="btn btn--base" style="color: white;" href="index.html"><i class="fa-regular fa-house-blank"></i></a>
-            <a class="btn btn--base" href="html/about/index.html">À propos</a>
-            <a class="btn btn--base" href="html/support/index.html">Nous contacter</a>
-            <a class="btn btn--dl" href="html/download/index.html">Télécharger</a>
-        </nav>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a class="nav__item button button--base" href="index.html"><i class="fa-regular fa-house-blank"></i></a>
+        <a class="nav__item button button--base" href="html/about/index.html">À propos</a>
+        <a class="nav__item button button--base" href="html/support/index.html">Nous contacter</a>
+        <a class="nav__item button button--download" href="html/download/index.html">Télécharger</a>
+      </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <h1 class="main main--base">Sukyan le <kk class="main main--meilleur">meilleur</kk> partenaire pour mettre à jour votre pc !</h1>
-            <div class="hero__img">
-                <img class="header--img" src="img/headerimg.png" alt="header image"></img>
-            </div>
-        </section>
+      <section class="hero">
+        <h1 class="hero__title">Sukyan le <span class="hero__highlight">meilleur</span> partenaire pour mettre à jour votre pc !</h1>
+        <div class="hero__img">
+          <img src="img/headerimg.png" alt="header image"/>
+        </div>
+      </section>
 
-        <section class="container">
-            <div class="step">
-                <div class="line"></div>
-                <p class="small-text">Étape 1</p>
-                <h2 class="main-text">Téléchargez le <span class="highlight">logiciel</span></h2>
-                <span class="btn btn--dl__1">Télécharger</span>
-            </div>
-            <div class="step">
-                <div class="line"></div>
-                <p class="small-text">Étape 2</p>
-                <h2 class="main-text"><strong>Installez le !</strong></h2>
-            </div>
-            <div class="step">
-                <div class="line"></div>
-                <p class="small-text">Étape 3</p>
-                <h2 class="main-text"><strong>Tout est prêt !</strong></h2>
-            </div>
-        </section>
+      <section class="container">
+        <div class="step">
+          <div class="step__line"></div>
+          <p class="step__small-text">Étape 1</p>
+          <h2 class="step__main-text">Téléchargez le <span class="hero__highlight">logiciel</span></h2>
+          <span class="button button--download">Télécharger</span>
+        </div>
+
+        <div class="step">
+          <div class="step__line"></div>
+          <p class="step__small-text">Étape 2</p>
+          <h2 class="step__main-text"><strong>Installez le !</strong></h2>
+        </div>
+
+        <div class="step">
+          <div class="step__line"></div>
+          <p class="step__small-text">Étape 3</p>
+          <h2 class="step__main-text"><strong>Tout est prêt !</strong></h2>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <div class="footer--top">
-            <p>&copy; 2024 Sukyan.</p>
-        </div>
-        <div class="footer--bottom">
-            <p>All rights reserved.</p>
-            <a href="html/legal.html">legal</a> |
-            <a href="html/privacy.html">privacy policies</a> |
-            <a href="html/terms.html">terms</a>.
-        </div>
+      <div class="footer__top">
+        <p>&copy; 2024 Sukyan.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>All rights reserved.</p>
+        <a href="html/legal.html">legal</a> |
+        <a href="html/privacy.html">privacy policies</a> |
+        <a href="html/terms.html">terms</a>.
+      </div>
     </footer>
-</body>
+  </body>
 </html>
